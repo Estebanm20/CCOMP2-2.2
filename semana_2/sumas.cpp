@@ -1,10 +1,15 @@
+/*operaciones basicas de suma,resta,multiplicación y división
+*/
 #include <iostream>
 using namespace std;
 int main(){
+    //declarando variables
     int a;
-    a = 20;
     int b;
-    b = 16;
+    cout<<"Ingrese un numero: "<<endl;
+    cin>>a;
+    cout<<"Ingrese un numero: "<<endl;
+    cin>>b;
 
     int suma = a+b;
     int resta = a-b;

@@ -12,7 +12,7 @@ int main(){
     cin>>c;
     cin>>d;
     cin>>e;
-    if (a>b&&a>c&&a>d&&a>e){
+    if ( a > b && a>c && a>d && a>e ){
         cout<<"El numero mayor es: "<<a<<endl;
     }
     else if(b>a&&b>c&&b>d&&b>e){

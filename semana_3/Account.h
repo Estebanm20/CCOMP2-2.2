@@ -1,5 +1,6 @@
+#include <iostream>
 #include <string>
-
+using namespace std;
 class Account {
 
     public:
@@ -15,14 +16,15 @@ class Account {
                 balance = balance + depositAmount;
             }
         }
-        void withdrawall(int withdrawallAmount){
-            if(withdrawallAmount <= balance ){
-                balance = balance - withdrawallAmount;
+        void withdrar(int withdrarAmount) {
+            if(withdrarAmount <= balance) {
+                balance = balance - withdrarAmount;
             }
-            else if( withdrawallAmount > balance ){
-                cout<<"Saldo excede al monto disponible";
+            else if( withdrarAmount > balance){
+                cout<<"\nEl monto excede la cantidad de su cuenta :(";
             }
         }
+
         int getBalance() const {
             return balance;
         }

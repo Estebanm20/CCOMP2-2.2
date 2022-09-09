@@ -10,7 +10,7 @@ Modify class AccountTest (Fig. 3.9) to test member function withdraw.*/
 
 using namespace std;
 
-int main() {
+int main(){
     Account account1{"Jane Green", 50};
     Account account2{"John Blue", -7};
 
@@ -39,22 +39,22 @@ int main() {
             account1.getBalance();
     cout << "\naccount2: " << account2.getName() << " balance is $" <<
             account2.getBalance();
-    int withdrawallAmount;
-    cin>> withdrawallAmount;
-    cout<<"withdrawing"<<withdrawallAmount<<" to account1 balance.";
-    account1.withdrawall(withdrawallAmount);
+    
+    cout << "\n\nEnter withdrar amount for account1: ";
+    int withdrarAmount;
+    cin>>withdrarAmount;
+    cout << "whidrawing " << withdrarAmount << " to account1 balance.";
+    account1.withdrar(withdrarAmount);
+
     cout << "\n\naccount1: " << account1.getName() << " balance is $" <<
             account1.getBalance();
-    cout << "\naccount2: " << account2.getName() << " balance is $" <<
-            account2.getBalance();
-    cout << "\n\nEnter withdraw amount for account2: ";
-    cin>> withdrawallAmount;
-    cout<<"withdrawing"<<withdrawallAmount<<" to account2 balance.";
-    account2.withdrawall(withdrawallAmount);
-    cout << "\n\naccount1: " << account2.getName() << " balance is $" <<
-            account1.getBalance();
-    cout << "\naccount2: " << account2.getName() << " balance is $" <<
-            account2.getBalance();
+    
+    cout << "\n\nEnter withdrar amount for account2: ";
+    cin>>withdrarAmount;
+    cout << "whidrawing " << withdrarAmount << " to account1 balance.";
+    account2.withdrar(withdrarAmount);
 
+    cout << "\n\naccount2: " << account1.getName() << " balance is $" <<
+            account2.getBalance();
     return 0;
 }

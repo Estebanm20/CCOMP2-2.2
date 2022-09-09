@@ -11,4 +11,5 @@ int main(){
     e = n%10/1;
     
     cout<<e<<"      "<<d<<"       "<<c<<"      "<<b<<"      "<<a<<endl;
+    return 0;
 }

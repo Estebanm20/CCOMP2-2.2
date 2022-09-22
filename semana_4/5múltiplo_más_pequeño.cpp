@@ -19,6 +19,6 @@ int main(){
     for(int i =2; i<=L; i++)
         result = mcm (result,i);
     
-    cout<<result;
+    cout<<"El número divisible del 1 al 20 mas pequeño es: "<<result<<endl;
     return 0;
 }

@@ -12,6 +12,6 @@ int main(){
         fibo2 = fibo3 + fibo1;
     }
 
-    cout<<fibosum<<endl;
+    cout<<"suma de los terminos par de la secuencia fibonacci es: "<<fibosum<<endl;
     return 0;
 }

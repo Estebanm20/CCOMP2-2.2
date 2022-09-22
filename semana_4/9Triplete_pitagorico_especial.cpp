@@ -10,7 +10,7 @@ int main()
             {
                 if(a * a + b * b == c * c && a + b + c == 1000)
                 {
-                    cout<<a*b*c<<endl;
+                    cout<<"El producto abc es: "<<a*b*c<<endl;
                 }
             }
         }

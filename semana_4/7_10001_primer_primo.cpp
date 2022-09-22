@@ -11,7 +11,7 @@ int main(){
                 arr[j] = 1;
             }
             if(cnt == 10001){
-                cout<<(i)<<endl;
+                cout<<"Cual es el número primo 10 001"<<(i)<<endl;
                 break;
             }
         }

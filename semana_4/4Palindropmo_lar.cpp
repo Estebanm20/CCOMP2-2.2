@@ -11,6 +11,6 @@ int main(){
             d = a*b;
         }
     }
-    cout<<d;
+    cout<<"El palindromo mas grande de un 2 números de 3 digitos es: "<<d;
     return 0;
 }

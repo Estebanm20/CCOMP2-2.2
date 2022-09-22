@@ -9,6 +9,6 @@ int main() {
     sum_square += i * i;
   }
   square_sum *= square_sum;
-  cout<<(square_sum - sum_square)<<endl;
+  cout<<"la diferencia entre la suma de los cuadrados de los primeros cien números naturales y el cuadrado de la suma"<<(square_sum - sum_square)<<endl;
   return 0;
 }

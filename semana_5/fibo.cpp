@@ -12,7 +12,7 @@ int fib_rec(int n){
 // iterativo
 
 int fib_iter(int n) {
-    int d=2, a=1, b=1, c=0;
+    int d=2, a=1, b=1, c;
     while(d<=n){
         c=a+b;
         a=b;

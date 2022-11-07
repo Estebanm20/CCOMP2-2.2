@@ -9,6 +9,6 @@ int main(){
     cout<<"Los valores en el arreglo son: ";
     for(int i = 0; i <4; i++)
         cout<<"  "<<arr[i];
-    cout<<endl;
+    cout << endl;
     return 0;
 }
